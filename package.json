@@ -1,18 +1,14 @@
 {
   "name": "facelessflow-render-server",
-  "version": "1.1.0",
-  "description": "Self-hosted video rendering server for FacelessFlow — FFmpeg-powered, no third-party APIs",
+  "version": "5.0.0",
+  "description": "Self-hosted video rendering server for FacelessFlow",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "scripts": { "start": "node server.js" },
   "dependencies": {
     "express": "^4.19.2",
     "axios": "^1.7.2",
     "cors": "^2.8.5",
     "uuid": "^9.0.1"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  }
+  "engines": { "node": ">=18.0.0" }
 }
